@@ -7,5 +7,9 @@
   },
   "peerDependencies": {
     "eslint": ">=7.25.0"
-  }
+  },
+  "files": [
+    "react.js",
+    "typescript.js"
+  ]
 }
