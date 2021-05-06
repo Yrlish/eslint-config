@@ -1,0 +1,11 @@
+{
+  "name": "@yrlish/eslint-config",
+  "version": "1.0.0",
+  "license": "MPL-2.0",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.25.0"
+  }
+}
