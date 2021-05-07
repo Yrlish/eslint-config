@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "@yrlish/eslint-config/typescript",
+        "typescript",
         "plugin:react/recommended"
     ],
     plugins: [
