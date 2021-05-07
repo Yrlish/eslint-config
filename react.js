@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "typescript",
+        "./typescript.js",
         "plugin:react/recommended"
     ],
     plugins: [
