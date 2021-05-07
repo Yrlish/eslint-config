@@ -17,5 +17,6 @@ module.exports = {
         "prefer-const": ["warn"],
         "quotes": ["warn", "double"],
         "semi": ["warn", "never"],
+        "eqeqeq": ["error", "smart"]
     }
 };
