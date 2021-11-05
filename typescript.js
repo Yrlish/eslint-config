@@ -15,7 +15,6 @@ module.exports = {
         "eol-last": ["warn", "always"],
         "eqeqeq": ["error", "smart"],
         "indent": ["warn", 2],
-        "jsx-quotes": ["warn", "prefer-double"],
         "linebreak-style": "off",
         "max-len": ["warn", { "code": 120 } ],
         "no-console": "error",
