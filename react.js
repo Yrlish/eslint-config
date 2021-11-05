@@ -6,4 +6,7 @@ module.exports = {
     plugins: [
         "react"
     ],
+    rules: [
+        "jsx-quotes": ["warn", "prefer-double"],
+    ]
 };
