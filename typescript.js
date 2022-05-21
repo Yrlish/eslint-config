@@ -9,6 +9,7 @@ module.exports = {
         "@typescript-eslint"
     ],
     rules: {
+        "@typescript-eslint/explicit-function-return-type": "warn",
         "@typescript-eslint/no-empty-function": "warn",
         "@typescript-eslint/no-explicit-any": "off",
         "array-bracket-spacing": ["warn", "always"],
