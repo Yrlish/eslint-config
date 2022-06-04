@@ -1,7 +1,8 @@
 module.exports = {
     extends: [
         "./typescript.js",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
     ],
     plugins: [
         "react"

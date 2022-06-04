@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        es2022: true
+    },
     extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/eslint-recommended",
@@ -8,6 +11,7 @@ module.exports = {
     plugins: [
         "@typescript-eslint"
     ],
+    parser: "@typescript-eslint/parser",
     rules: {
         "@typescript-eslint/explicit-function-return-type": "warn",
         "@typescript-eslint/no-empty-function": "warn",
