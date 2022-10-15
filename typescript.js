@@ -13,7 +13,7 @@ module.exports = {
     ],
     parser: "@typescript-eslint/parser",
     rules: {
-        "@typescript-eslint/explicit-function-return-type": "warn",
+        "@typescript-eslint/explicit-function-return-type": "error",
         "@typescript-eslint/no-empty-function": "warn",
         "@typescript-eslint/no-explicit-any": "off",
         "array-bracket-spacing": ["warn", "always"],
