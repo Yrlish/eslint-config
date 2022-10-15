@@ -22,7 +22,7 @@ module.exports = {
         "eqeqeq": ["error", "smart"],
         "indent": ["warn", 2, {
           "SwitchCase": 1
-        }]
+        }],
         "linebreak-style": "off",
         "max-len": ["warn", { "code": 120 } ],
         "no-console": "error",
