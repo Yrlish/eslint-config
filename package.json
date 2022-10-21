@@ -3,8 +3,10 @@
   "version": "1.1.10",
   "homepage": "https://github.com/Yrlish/eslint-config",
   "license": "MPL-2.0",
-  "peerDependencies": {
-    "eslint": "^7.0.0"
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0"
   },
   "files": [
     "react.js",
