@@ -25,7 +25,9 @@ jobs:
         uses: "phips28/gh-action-bump-version@master"
         with:
           skip-tag: 'true'
-          default: 'minor'
+#          major-wording: 'BREAKING CHANGE,major'
+#          minor-wording: 'feat,minor'
+#          patch-wording: '*'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "Publish to NPM"
